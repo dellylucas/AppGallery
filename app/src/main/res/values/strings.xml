@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AppGallery</string>
+    <string name="title_login">Login</string>
+    <string name="title_gallery">Galeria</string>
+    <string name="user">Escribe tu nombre de usuario</string>
+    <string name="pass">Escribe tu contraseña</string>
+    <string name="btn_forgot">Olvidé mis datos</string>
+    <string name="btn_init">Iniciar sesion</string>
 </resources>
