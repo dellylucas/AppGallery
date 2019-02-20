@@ -6,4 +6,19 @@
     <string name="pass">Escribe tu contraseña</string>
     <string name="btn_forgot">Olvidé mis datos</string>
     <string name="btn_init">Iniciar sesion</string>
+    <string name="alert">Debes recuperar tu cuenta</string>
+    <string name="alert_send_email">Se ha enviado la informacion de recuperacion a tu email</string>
+
+<array name="ruta_img">
+    <item>@drawable/img1</item>
+    <item>@drawable/img2</item>
+    <item>@drawable/img3</item>
+    <item>@drawable/img4</item>
+    <item>@drawable/img5</item>
+    <item>@drawable/img6</item>
+    <item>@drawable/img7</item>
+    <item>@drawable/img8</item>
+</array>
 </resources>
+
+

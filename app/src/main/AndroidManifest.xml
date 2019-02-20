@@ -16,11 +16,11 @@
             android:name=".MainActivity"
             android:label="@string/title_login"
             android:screenOrientation="portrait">
-            <intent-filter>
+            <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
