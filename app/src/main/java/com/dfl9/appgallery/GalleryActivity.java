@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.GridView;
 
-import com.dfl9.appgallery.model.GalleryAdapter;
+import com.dfl9.appgallery.adapter.GalleryAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

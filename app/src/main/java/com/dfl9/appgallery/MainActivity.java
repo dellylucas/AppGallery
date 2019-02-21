@@ -1,7 +1,6 @@
 package com.dfl9.appgallery;
 
 import android.content.Intent;
-import android.support.design.internal.SnackbarContentLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

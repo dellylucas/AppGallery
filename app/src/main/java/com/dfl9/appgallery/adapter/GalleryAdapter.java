@@ -1,4 +1,4 @@
-package com.dfl9.appgallery.model;
+package com.dfl9.appgallery.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

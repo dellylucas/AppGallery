@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppGallery</string>
+    <string name="app_name">Gestor de Diseños</string>
     <string name="title_login">Login</string>
     <string name="title_gallery">Galeria</string>
     <string name="user">Escribe tu nombre de usuario</string>
@@ -10,17 +10,19 @@
     <string name="alert_send_email">Se ha enviado la informacion de recuperacion a tu email</string>
     <string name="alert_log">Debes ingresar ambos datos de usuario</string>
     <string name="act_snack">RECUPERAR</string>
+    <string name="appwidget_subtext">Delly Fabian Lucas</string>
 
-<array name="ruta_img">
-    <item>@drawable/img1</item>
-    <item>@drawable/img2</item>
-    <item>@drawable/img3</item>
-    <item>@drawable/img4</item>
-    <item>@drawable/img5</item>
-    <item>@drawable/img6</item>
-    <item>@drawable/img7</item>
-    <item>@drawable/img8</item>
-</array>
+    <array name="ruta_img">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+    </array>
+
 </resources>
 
 
