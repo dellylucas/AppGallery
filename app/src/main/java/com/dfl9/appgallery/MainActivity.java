@@ -5,6 +5,7 @@ import android.support.design.internal.SnackbarContentLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void alertNotify(View view){
         Snackbar sna = Snackbar.make(view,R.string.alert,Snackbar.LENGTH_LONG).
-                setAction("RECUPERAR", new View.OnClickListener() {
+                setAction(R.string.act_snack, new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Toast toast = Toast.makeText(v.getContext(),R.string.alert_send_email,Toast.LENGTH_LONG);
@@ -48,5 +49,27 @@ public class MainActivity extends AppCompatActivity {
             startActivity(paso);
         }
 
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("Metodos","Este es el metodo Actividad LogIn onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("Metodos","Este es el metodo Actividad LogIn onPause");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.i("Metodos","Este es el metodo Actividad LogIn onRestart");
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("Metodos","Este es el metodo Actividad LogIn onDestroy");
     }
 }

@@ -9,6 +9,7 @@
     <string name="alert">Debes recuperar tu cuenta</string>
     <string name="alert_send_email">Se ha enviado la informacion de recuperacion a tu email</string>
     <string name="alert_log">Debes ingresar ambos datos de usuario</string>
+    <string name="act_snack">RECUPERAR</string>
 
 <array name="ruta_img">
     <item>@drawable/img1</item>
