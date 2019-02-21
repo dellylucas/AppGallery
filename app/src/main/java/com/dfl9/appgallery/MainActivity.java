@@ -1,18 +1,27 @@
 package com.dfl9.appgallery;
 
+import android.content.Intent;
 import android.support.design.internal.SnackbarContentLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private   EditText user;
+    private   EditText pass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        user = findViewById(R.id.editUser);
+        pass = findViewById(R.id.editPass);
+
     }
     public void alertNotify(View view){
         Snackbar sna = Snackbar.make(view,R.string.alert,Snackbar.LENGTH_LONG).
@@ -26,5 +35,18 @@ public class MainActivity extends AppCompatActivity {
         View vi = sna.getView();
         vi.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
         sna.show();
+    }
+    public  void  validateLog(View view){
+        String usr = user.getText().toString();
+        String pss = pass.getText().toString();
+
+        if (pss.equals("") ||  usr.equals("")) {
+            Toast toast = Toast.makeText(view.getContext(),R.string.alert_log,Toast.LENGTH_LONG);
+            toast.show();
+        }else {
+            Intent paso = new Intent(this,GalleryActivity.class);
+            startActivity(paso);
+        }
+
     }
 }

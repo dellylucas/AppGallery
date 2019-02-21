@@ -9,19 +9,24 @@
 
     <ImageView
         android:src="@drawable/ic_person"
-        android:layout_gravity="center"
-        android:layout_width="200dp"
-        android:layout_height="200dp" />
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
 
     <EditText
+        android:id="@+id/editUser"
         android:hint="@string/user"
         android:layout_width="match_parent"
+        android:textSize="18sp"
         android:layout_height="wrap_content" />
 
     <EditText
+        android:id="@+id/editPass"
         android:hint="@string/pass"
         android:layout_marginTop="10dp"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
+        android:textSize="18sp"
         android:layout_height="wrap_content" />
 
     <LinearLayout
@@ -40,6 +45,7 @@
 
         <Button
             android:text="@string/btn_init"
+            android:onClick="validateLog"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
